@@ -1,0 +1,195 @@
+
+.search{
+	padding:20px 5px;
+	background:rgba(50,50,50,0.2);
+	border:0px solid #dbdbdb;
+	background-color:white;
+	width:30px;
+	border-radius: 10px;
+}
+form{
+	height:100px;
+	width:80px;
+	margin:0px auto;
+	margin: 0px 100px 0px 75px;
+	display:inline-block;
+	float:right;
+}
+.tumbas {
+	text-decoration: none;
+	margin-left: 0%;
+	background:white;
+	color:black;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	display: block;
+	text-align:center;
+	
+}
+
+.menu1 {
+	display: block;
+}
+.tumbas:hover {
+	background: #e7ab18;
+	color: white;
+}
+div#content1 {
+	margin-left: 0%;
+	padding:20px 0px 20px 20px;
+	position:relative;
+	min-height: 100%;
+	margin-bottom: 50px;
+}
+.menu:link{
+	background:black;
+	height:100%;
+	padding:20px;
+	width:100%;
+	border-radius: 5px;
+}
+.menu:hover{
+	background:white;
+	border-radius: 5px;
+}
+body{
+	background-color: rgb(0,130,255);
+	height:77%;
+}
+
+.menu{
+		border-radius: 5px;
+		color:yellow;
+		font-size:30px;
+		text-decoration:blink;
+	}
+ul.menu3 {
+	text-align:center;
+	margin-top: 50px;
+	margin-bottom:50px;
+	margin-left:5%;
+	list-style-type: none;
+	border-radius: 5px;
+}
+li.page {
+	display:inline-block;
+}
+li a.page1 {
+	background:rgb(0,255,255) ;
+	color:black;
+	text-decoration:none;
+	padding:15px;
+}
+
+li a.page1:hover {
+	background:rgb(0,255,255);
+	color: white;
+}
+.gambar {
+	display: block-transparent;
+	float: left;
+	margin: 40px;
+	text-align: center;
+	border-radius: 5px;
+	
+}
+p.nama{
+	background:#09ecf2;
+	color:black;
+	margin:0px;
+	padding:10px;
+	display:block;
+	border-radius: 5px;
+}
+.merk1{
+	display: block;
+	list-style-type:none;	
+}
+li.merk {
+	text-decoration: none;
+	background:white;
+	padding:20px;
+}
+.layanan li {
+    list-style-type: none;
+	float:left;
+	width: 210px;
+	height: 30px;
+	padding: 20px;
+	background: #f6cc0a;
+	text-align: center;
+	cursor: pointer;
+	line-height: 30px;
+	transition-duration: 0.5s;
+	font-size:30px;
+	
+}
+.layanan li:hover {
+    background: white;
+	border-radius: 5px;
+	}
+.layanan li ul li {
+	right: 60px;
+	top: 20px;
+	z-index:0;
+}
+.layanan li ul {
+	border-radius: 5px;
+    display: none;
+	z-index:100;
+}
+.layanan ul li span.arrow {
+    border:6px solid transparent;
+	border-top:9px solid #fff;
+    position:absolute;
+    top: 130px;
+    left: 460px;
+	border-radius: 5px;
+	
+}
+.layanan  li:hover ul {
+    display: block;
+	border-radius: 5px;
+	animation: drop 1s;
+	position: relative;
+}
+.kontak{
+	font-family: ubuntu condensed;
+	text-decoration: none;
+	padding:5px;
+	border-radius: 4px;
+	float:left;
+	display: inline;
+	background:transparent;
+	border:2px solid #ccc;
+	width:20%;
+}
+.link-kontak{
+	text-decoration: none;
+	color: black;
+	font-family:ubuntu condensed;
+	font-size:15px;
+}
+.footer1 {
+	display:block;
+	background-repeat:no-repeat;
+	background-color:#dae411;
+	color:black;
+	text-align:left;
+	padding:10px 20px;
+	bottom: 0;
+
+}
+
+footer {
+	display:block;
+	background-repeat:no-repeat;
+	background-color:#f6cc0a;;
+	color:black;
+	text-align:center;
+	padding:10px;
+	bottom: 0;
+	
+	
+}
